@@ -37,7 +37,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
                       margin: const EdgeInsets.only(top: 25),
                       padding: const EdgeInsets.all(15),
                       child: const Text(
-                        "Add a new Task ......",
+                        "Masukkan Task Baru",
                         style: TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
@@ -49,7 +49,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         const Text(
-                          "Name: ",
+                          "Nama: ",
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 16,
@@ -65,7 +65,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
                                   .add(GetTaskNameEvent(name: value));
                             },
                             decoration: const InputDecoration(
-                              hintText: "Enter task name....",
+                              hintText: "Masukkan nama task",
                               border: UnderlineInputBorder(
                                 borderSide: BorderSide(
                                   color: Colors.grey,
@@ -80,7 +80,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         const Text(
-                          "Description: ",
+                          "Deskripsi: ",
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 16,
@@ -96,7 +96,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
                                   .add(GetDescriptionEvent(desc: value));
                             },
                             decoration: const InputDecoration(
-                              hintText: "Enter description....",
+                              hintText: "Masukkan deskripsi task",
                               border: UnderlineInputBorder(
                                 borderSide: BorderSide(
                                   color: Colors.grey,
@@ -111,7 +111,7 @@ class _AddTaskPageState extends State<AddTaskPage> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         const Text(
-                          "Complete By: ",
+                          "Tanggal: ",
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 16,
